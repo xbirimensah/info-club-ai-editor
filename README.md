@@ -1,4 +1,4 @@
-# m15s AI Editor
+# Info Club AI Editor
 
 An Agent Skill that edits talking-head videos end to end: raw take in, finished Reel, Short or VSL
 out. It works with any AI coding agent that can run shell commands: Claude Code, Codex, OpenCode,
@@ -22,9 +22,9 @@ a rule, so you never say it twice.
 ## Install (Mac with Apple Silicon)
 
 ```bash
-git clone <this repo> ~/Dev/m15s-ai-editor
-bash ~/Dev/m15s-ai-editor/setup/install.sh            # core
-bash ~/Dev/m15s-ai-editor/setup/install.sh --extras   # + NextWork's clips, teardown, product films
+git clone <this repo> ~/Dev/info-club-ai-editor
+bash ~/Dev/info-club-ai-editor/setup/install.sh            # core
+bash ~/Dev/info-club-ai-editor/setup/install.sh --extras   # + NextWork's clips, teardown, product films
 ```
 
 The installer checks Homebrew, ffmpeg, Node 22+ and Python, creates a venv (mlx-whisper, OpenCV,
@@ -88,3 +88,7 @@ ElevenLabs), Modal, GitHub Actions or AWS for cloud renders.
 This repo: MIT (`LICENSE`). Third-party parts: `THIRD_PARTY_NOTICES.md` (NextWork ai-video-editor
 MIT, HyperFrames skills Apache-2.0, fonts under the SIL Open Font License). Remotion is installed from npm under its own licence;
 companies above its free-use threshold need a Remotion company licence (remotion.dev/license).
+
+---
+
+Made with love from [info-club.de](https://info-club.de).
